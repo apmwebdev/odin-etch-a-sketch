@@ -45,13 +45,12 @@ header {
 
 .row {
     display: flex;
-    max-width: 98vw;
+    width: 960px;
 }
 
 .pixel {
-    flex: 0 1 auto;
+    flex: 1 1 0;
     border: 1px solid gray;
-    width: 30px;
     aspect-ratio: 1/1;
 }
 
